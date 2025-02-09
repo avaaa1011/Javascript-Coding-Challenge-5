@@ -43,6 +43,12 @@ let sales = [500, 300, 200, 400]; //declaring an array
 let totalRevenue = sales.revenue((total, sales)=> total + sales, 0); //using a method to calculate the total revenue 
 console.log(`Total Revenue: $${totalRevenue}`); 
 
+//Task 7 - Customer Search
+let customers = ["Alice", "Bob", "Charlie", "David"]; //declaring an array
+let search = customers.find(customer => customer === "Charlie");//using .find() method to search for a customer
+console.log(`Customer: ${search}`);
+
+
 
 
 
