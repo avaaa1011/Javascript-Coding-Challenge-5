@@ -48,7 +48,7 @@ let customers = ["Alice", "Bob", "Charlie", "David"]; //declaring an array
 let search = customers.find(customer => customer === "Charlie");//using .find() method to search for a customer
 console.log(`Customer: ${search}`);
 
-//Task 8 - Function Declaration 
+//Task 8 - Tax Declaration
 function calculateTax(amount, taxRate) //function
     {
     //calculating tax 
@@ -57,6 +57,12 @@ function calculateTax(amount, taxRate) //function
     let tax = calculateTax(100, .2); //random example to calculate tax
     console.log(`Calculated Tax: $${tax}`);
 
-
+//Task 9 - Discount Application 
+function applyDiscount (price, discount)//declaring a function 
+    {
+        return price * discount //returning discount price
+    }
+let discountedPrice = applyDiscount(20, .3); //random example to show the function working 
+console.log(`Discounted Price: $${discountedPrice}`); 
 
 
