@@ -38,6 +38,12 @@ let inventory = [5,0,12,8,0];//declaring an array with 5 quantities
 let currenteInventory = inventory.filter(stock => stock > 0); //using a method to remove products that have no availibility.
 console.log(`Available Inventory: ${currenteInventory}`);
 
+//Task 6 - Revenue Calculation 
+let sales = [500, 300, 200, 400]; //declaring an array
+let totalRevenue = sales.revenue((total, sales)=> total + sales, 0); //using a method to calculate the total revenue 
+console.log(`Total Revenue: $${totalRevenue}`); 
+
+
 
 
 
