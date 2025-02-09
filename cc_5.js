@@ -28,4 +28,12 @@ cartItems.pop(); //removing the last item in the array
 cartItems.unshift("Noodles"); //adding another item to the beggining of the array
 console.log(`Final Cart Items: ${cartItems}`); //prints updated list of cartItems
 
+//Task 4 - Price Adjustments 
+let prices = [100, 200, 300]; //declaring an array
+let discountedPrices = prices.map(price => price * .90);//applying 10% discount to each price
+console.log(`Discounted Prices: ${discountedPrices}`); 
+
+
+
+
 
