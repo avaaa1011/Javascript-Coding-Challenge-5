@@ -48,7 +48,14 @@ let customers = ["Alice", "Bob", "Charlie", "David"]; //declaring an array
 let search = customers.find(customer => customer === "Charlie");//using .find() method to search for a customer
 console.log(`Customer: ${search}`);
 
-
+//Task 8 - Function Declaration 
+function calculateTax(amount, taxRate) //function
+    {
+    //calculating tax 
+    return amount * taxRate
+    }; 
+    let tax = calculateTax(100, .2); //random example to calculate tax
+    console.log(`Calculated Tax: $${tax}`);
 
 
 
