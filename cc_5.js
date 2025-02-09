@@ -33,6 +33,10 @@ let prices = [100, 200, 300]; //declaring an array
 let discountedPrices = prices.map(price => price * .90);//applying 10% discount to each price
 console.log(`Discounted Prices: ${discountedPrices}`); 
 
+//Task 5 - Product Availibility 
+let inventory = [5,0,12,8,0];//declaring an array with 5 quantities 
+let currenteInventory = inventory.filter(stock => stock > 0); //using a method to remove products that have no availibility.
+console.log(`Available Inventory: ${currenteInventory}`);
 
 
 
