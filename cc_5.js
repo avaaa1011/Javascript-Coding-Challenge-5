@@ -65,4 +65,12 @@ function applyDiscount (price, discount)//declaring a function
 let discountedPrice = applyDiscount(20, .3); //random example to show the function working 
 console.log(`Discounted Price: $${discountedPrice}`); 
 
-
+//Task 10 - Loyalty Points 
+let calculatePoints = (purchaseAmount) => 
+    //used an arrow function that will take both purchase amount and return points
+        {
+            return Math.floor(purchaseAmount / 10); //dividing by 10 because 1 point is earned per $10 spent
+        };
+        let purchaseAmount2 = 300; //random number chosen
+        let points = calculatePoints(purchaseAmount2);
+        console.log(`Points earned: ${points}`);
