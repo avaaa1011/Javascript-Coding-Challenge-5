@@ -40,7 +40,7 @@ console.log(`Available Inventory: ${currenteInventory}`);
 
 //Task 6 - Revenue Calculation 
 let sales = [500, 300, 200, 400]; //declaring an array
-let totalRevenue = sales.revenue((total, sales)=> total + sales, 0); //using a method to calculate the total revenue 
+let totalRevenue = sales.reduce((total, sales)=> total + sales, 0); //using a method to calculate the total revenue 
 console.log(`Total Revenue: $${totalRevenue}`); 
 
 //Task 7 - Customer Search
